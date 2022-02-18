@@ -14,7 +14,7 @@ The filter section should allow the user to filter the list of characters accord
 
 * The movie the character appeared in (i.e. show only characters that appeared in Episode IV: A New Hope)
 * The character's species (i.e. show only characters that are human)
-* A range of years that the character's birth year falls in (i.e. show only characters born between 30 BBY and 5 ABY, see API documentation for field `birth_year` at https://swapi.co/documentation#people)
+* A range of years that the character's birth year falls in (i.e. show only characters born between 30 BBY and 5 ABY, see API documentation for field `birth_year` at https://swapi.dev/documentation#people)
 
 All filter settings should be treated using an AND relationship, i.e. if the user chooses to filter by movie and species, only characters that appear in the given movie AND are of the specified species should be displayed.
 
