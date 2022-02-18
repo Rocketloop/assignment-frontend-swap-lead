@@ -1,10 +1,10 @@
-# Assignment - Front-End Lead (Angular)
+# Assignment - Front-End Lead
 
-The subject of this assignment is a small Angular application that acts as an interactive explorer for the characters from the movie franchise Star Wars.  If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. The assignment is divided into two tasks that focus on your technical and project management skills respectively.
+The subject of this assignment is a small front-end application that acts as an interactive explorer for the characters from the movie franchise Star Wars.  If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. The assignment is divided into two tasks that focus on your technical and project management skills respectively.
 
 ## Application Requirements
 
-The main view of the application should display the list of characters with a filter section, that the user can use to filter the characters by certain criteria. Clicking on one of the characters from the list should open a detail view of the corresponding character. When the user changes the filter settings in the filter section, the list of characters should instantly adapt to only show characters that match the chosen filter settings. The data for the application should be queried from an open API called [SWAPI (Star Wars API)](https://swapi.co/) that should give access to all data that is needed to fullfill the requirements.
+The main view of the application should display the list of characters with a filter section, that the user can use to filter the characters by certain criteria. Clicking on one of the characters from the list should open a detail view of the corresponding character. When the user changes the filter settings in the filter section, the list of characters should instantly adapt to only show characters that match the chosen filter settings. The data for the application should be queried from an open API called [SWAPI (Star Wars API)](https://swapi.dev/) that should give access to all data that is needed to fullfill the requirements.
 
 ### Character List
 The character list should be a simple list that displays the name of the character. Each list entry should be clickable and open the detail view for the selected character when the user clicks the list entry.
@@ -28,16 +28,16 @@ The character details that are shown when the user selects a character from the 
 
 ## Technical Task (2-4h)
 
-For the technical task, you will need to create an Angular application that satisfies the requirements given in the previous section. 
+For the technical task, you will need to create a front-end application that satisfies the requirements given in the previous section. 
 
 ### Project Setup
-Please use the Angular CLI to set up the application. We should be able to start the application using the `npm start` command. The app should use the latest version of Angular (8.1 at the time of writing).
+We should be able to start the application using the `npm start` command. The app should use the latest major version of your front-end framework of choice.
 
 ### SWAPI
-The [Star Wars API](https://swapi.co/) should be used to complete this assignment. The most important endpoint will be the `/people` endpoint to query the characters to display in the character list (see https://swapi.co/documentation#people). As the SWAPI does not support filtering the data, it will be necessary to fetch all data and filter on the client side. Make sure not to send unneccessary API requests.
+The [Star Wars API](https://swapi.dev/) should be used to complete this assignment. The most important endpoint will be the `/people` endpoint to query the characters to display in the character list (see https://swapi.dev/documentation#people). As the SWAPI does not support filtering the data, it will be necessary to fetch all data and filter on the client side. Make sure not to send unneccessary API requests.
 
 ### External Libraries
-You are allowed to use any external library to complete this task. You are also allowed to use UI libraries like Bootstrap or Angular Material. Please make sure that the application looks decent and consistent.
+You are allowed to use any external library to complete this task. You are also allowed to use UI libraries. Please make sure that the application looks appealinf, consistent, and has a good user experience.
 
 ## Project Management Task (1-2h)
 
@@ -49,9 +49,9 @@ For the project management task, you will need to turn a high-level description 
 
 ### Ticket Format
 
-The requirements should be divided into Jira tickets that can be assigned to individual developers.
+The requirements should be divided into user stories and work items that can be assigned to individual developers.
 
-Please use the following format for the tickets:
+Please use the following format for the work items:
 
 > **Title:** Title of the ticket  
 > **Description:** Description of the ticket
