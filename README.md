@@ -1,6 +1,6 @@
 # Assignment - Front-End Lead
 
-The subject of this assignment is a small front-end application that acts as an interactive explorer for the characters from the movie franchise Star Wars.  If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. The assignment is divided into two tasks that focus on your technical and project management skills respectively.
+The subject of this assignment is a small front-end application that acts as an interactive explorer for the characters from the movie franchise Star Wars.  If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. The assignment is divided into two tasks that focus on your technical and team lead skills respectively.
 
 ## Application Requirements
 
@@ -39,19 +39,14 @@ The [Star Wars API](https://swapi.dev/) should be used to complete this assignme
 ### External Libraries
 You are allowed to use any external library to complete this task. You are also allowed to use UI libraries. Please make sure that the application looks appealinf, consistent, and has a good user experience.
 
-## Project Management Task (1-2h)
+## Team Lead Task (1-2h)
 
-For the project management task, you will need to turn a high-level description of a new feature into technical requirements that can be given to a developer for implementation. This task tries to simulate a real-world change request by a customer.
+For the team lead task, you will need to turn a high-level description of a new feature into (technical) work items that can be given to a cross-functional agile team of engineers to be implemented. This task tries to simulate a real-world change request to a customer product that you would be leading.
 
 ### Change Request
 
 > We have received feedback from our users that the list of characters is too long and it is hard to find the character that they are looking for. To make it easier to find a specific character, we want to add a search function to our app, so that the user can directly type in the name of the character they are looking for. The search field should be displayed somewhere prominently and should behave like a usual search field. We also need a page that shows the search results. Also, we should automatically show suggestions when the user types into the search field. If the user clicks a suggestion, it would be best, if we can directly link to the character page.
 
-### Ticket Format
+### Deliverable
 
-The requirements should be divided into user stories and work items that can be assigned to individual developers.
-
-Please use the following format for the work items:
-
-> **Title:** Title of the ticket  
-> **Description:** Description of the ticket
+You are free in the format (e.g user stories, technical tasks, etc.) and how you want to structure the work items. The deliverable should be in plain text or markdown and contain a set of work items with descriptions of what needs to be done, think of them as Jira issues or sticky notes on a kanban board. Please be prepared to discuss your choice of format and structure in the discussion of the assignment.
